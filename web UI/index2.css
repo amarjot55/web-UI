@@ -1,0 +1,210 @@
+*{
+    margin: 0p;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.upper-container{
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+.upper-container1{
+    width:35%;
+    height: 100%;
+    padding-top: 20px;
+    display: inline;
+}
+#Tasks{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#lists{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+
+}
+.upper-container2{
+    width: 35%;
+    height: 100%;
+   padding-top: 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.add-list{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top: 10px;
+}
+.card{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 46vh;
+    width: 18%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px green;
+    margin:10px;  
+}
+.card2{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 46vh;
+    width: 18%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px green;
+    margin: 10px;;   
+}
+.card3{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 46vh;
+    width: 18%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px green;
+    margin:10px; 
+}
+.div1{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 20px;
+    width: 85%;
+    text-align: left;
+    height: 22%;
+    color: #2B7A0B;
+    border-bottom: 1px solid black;
+}
+.div2{
+    width: 80%;
+    height: 10%;
+    font-size:16px; 
+    color: #0130028d;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    font-size: 16px;
+}
+#check{
+    size: 25px;
+    margin-left: 10px;
+}
+.notshow{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+.pop-up{
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    height: 35vh;
+    width: 27%;
+    border: 1.5px solid green;
+    border-radius: 10px;
+    color: #2B7A0B;
+    box-shadow: 5px 5px 10px green;
+    background-color: white;
+    padding: 20px;
+}
+#add-new{
+    opacity: 0.7;
+    font-size: 17px;
+ 
+}
+.pop-up-bar{
+    margin-top: 12px;
+    border-radius: 4px;
+    width: 85%;
+    height: 25%;
+    border: 1.5px solid #2B7A0B;
+    box-shadow: 2px 2px 3px #2B7A0B;
+}
+.pop-up-button{
+    height: 28px;
+    width: 25%;
+    margin-top: 18px ;
+    background-color: #BABD42;
+    border: 1px solid #BABD42;
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media (max-width:600px){
+    .upper-container{
+        width: 80%;
+    }
+    .upper-container1{
+        width: 80%;
+    }
+    .add-list{
+        display: none;
+    }
+    #square{
+        margin-left: 80px;
+    }
+    .div2{
+        display: none;
+    }
+    .div3{
+        display: none;
+    }
+    .div1{
+        border: none;
+        color: grey;
+    }
+    .card1{
+        width: 90%;
+        height: 23vw;
+        margin-top: 30px;
+    }
+    .card2{
+        width: 90%;
+        height: 23vw;
+        margin-top: 30px;
+    }
+    .card3{
+        width: 90%;
+        height: 23vw;
+        margin-top: 30px;
+    }
+    .card{
+        margin: 10px;
+        display: inline;
+        
+    }
+    .pop-up{
+        position: absolute;
+        left: 17%;
+        top: 30%;
+        height: 30vh;
+        width: 70%;
+       
+    }
+   
+}

@@ -1,0 +1,32 @@
+.grid-container{
+    display: grid;
+    grid-template-columns:  repeat(4,75px);
+    grid-template-rows: 50px 50px 50px 50px;
+    column-gap: 20px;
+    row-gap: 20px;gap: 40px 30px;
+    justify-items: center;
+    align-items: end;
+    justify-content: space-evenly;
+    align-content: space-around;
+    background-color: bisque;
+}
+.item{
+    background-color: aqua;
+    border: 2px solid black;
+}
+.item1{
+   /* grid-column: 1/span 3;
+    grid-row: 1/ span;*/
+    background-color: aqua;
+    border: 2px solid black;
+   
+
+}
+@media (min-width: 500px) {
+   body{
+    background-color: aquamarine;
+    font-size: 1.5em;
+   }
+}
+    
+}

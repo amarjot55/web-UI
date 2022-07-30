@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+h1{
+    background-color: aqua;
+    color: grey;
+     margin: 30px;
+     padding: 20px;
+}
+
+/*p{
+    background-color: aquamarine;
+    color:grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}*/
+#copy-right{
+    background-color: burlywood;
+    color: black;
+}
+.description{
+    background-color: aquamarine;
+    color: black;
+}
+.para{
+    border: 2px solid red;
+
+}
+.parent{
+    visibility: inherit;
+}
+.primary-text{
+    display: inline-block;
+    background-color: greenyellow;
+    height: 100px;
+    width: 300px;
+    visibility: inherit;
+}
+.secondary-text{
+    display: inline-block;
+    background-color: blueviolet;
+    height: 100px;
+    width: 300px;
+    visibility: inherit;
+}
